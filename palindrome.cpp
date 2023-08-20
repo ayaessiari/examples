@@ -7,7 +7,7 @@ bool check_user_input(int& p)  {
 
 
     
-   p = 10;
+   p = 20;
    return true;
 }
 
