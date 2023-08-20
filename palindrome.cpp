@@ -3,30 +3,23 @@
 using namespace std;
 
 bool check_user_input(int& p)  {
-   // AYA TO WRITE .....
+   // AYA TO CHANGE THIS FUNCTION TO HANDLE PALINDROMES. .....
 
-
-    
    p = 20;
    return true;
 }
 
-
 int main() {
     int value;
-
 
     cout << "Enter a number:";
     while (true) {  // forerver loop
         cin >> value;
-
-
         cout << "BEFORE:" << value << endl;;
-        bool mimi = check_user_input(value);
+        bool exit = check_user_input(value);
         cout << "AFTER:" << value << endl;;
 
-
-        if (mimi) {
+        if (exit) {
            cout << "You have entered a Palindrome" << endl;
            break;
         }
