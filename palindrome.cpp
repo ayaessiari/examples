@@ -2,26 +2,25 @@
 
 using namespace std;
 
-bool check_user_input(int& p)  {
+bool check_user_input(const string& p)  {
    // AYA TO CHANGE THIS FUNCTION TO HANDLE PALINDROMES. .....
-
-   p = 20;
-   return true;
+   return false;
 }
 
 int main() {
-    int value;
+    string value;
 
-    cout << "Enter a number:";
+    cout << "Enter a palindrome:";
     while (true) {  // forerver loop
         cin >> value;
-        cout << "BEFORE:" << value << endl;;
         bool exit = check_user_input(value);
-        cout << "AFTER:" << value << endl;;
 
         if (exit) {
-           cout << "Congratulations. You have entered a Palindrome." << endl;
+           cout << "Congratulations! You have entered a Palindrome." << endl;
            break;
         }
+
+        cout << value << " is not a palindrome!" << endl;
+        cout << "Please enter palindrome:";
     }
 }
