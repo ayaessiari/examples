@@ -20,7 +20,7 @@ int main() {
         cout << "AFTER:" << value << endl;;
 
         if (exit) {
-           cout << "You have entered a Palindrome" << endl;
+           cout << "Congratulations. You have entered a Palindrome." << endl;
            break;
         }
     }
