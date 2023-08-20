@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/**
+  * Returns true if input is a palidrome.
+  */
 bool check_user_input(const string& p)  {
    // AYA TO CHANGE THIS FUNCTION TO HANDLE PALINDROMES. .....
    return false;
